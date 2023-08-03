@@ -14,6 +14,7 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 * React 
 * JvaScript
 
+[el video](http://video.gif)
 
 
 

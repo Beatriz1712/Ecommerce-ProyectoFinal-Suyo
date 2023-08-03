@@ -8,6 +8,7 @@ import Contacto from './pages/Contacto';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { CartProvider } from "./components/context/CartContext";
 import Carrito  from './components/Carrito';
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <Route exact path='/category/:category' element={<ItemListContainer />} />
             <Route exact path='/Item/:id' element={<ItemDetailContainer />} />
             <Route exact path='/carrito' element={<Carrito />} />
+            <Route exact path='/checkout' element={<Checkout />} />
           </Routes>
         </BrowserRouter>
       </CartProvider>  

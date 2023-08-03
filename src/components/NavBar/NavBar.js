@@ -8,7 +8,7 @@ const NavBar = () => {
         
         <div className='container-fluid'>
             <Navbar expand="lg" bg="ligth" className="navbar">
-                <Navbar.Brand to="/">BettyStore💎</Navbar.Brand>
+                <Navbar.Brand to="/">  BettyStore💎</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Link to="/" className="enlaces">Home</Link>

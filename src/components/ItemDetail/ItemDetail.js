@@ -3,7 +3,7 @@ import ItemCount from "../ItemCount/ItemCount"
 import { useState, useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
-//verificar import de cart
+
 const ItemDetail = ({ item }) => {
   // eslint-disable-next-line
 const {carrito, agregarAlCarrito} = useContext(CartContext);

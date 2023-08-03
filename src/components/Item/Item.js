@@ -6,6 +6,7 @@ import{Link} from 'react-router-dom';
    
   return (
        <div className='producto' >
+       
         <img src = {producto.image} alt= {producto.titulo}/>
           <div>
               <h4>{producto.titulo}</h4> 
@@ -20,4 +21,6 @@ import{Link} from 'react-router-dom';
     }
     export default Item; 
       
-        
+        /*
+        //<div className='p-4 shadow-lg rounded hover:scale-110 transition duration-300' >
+        */
