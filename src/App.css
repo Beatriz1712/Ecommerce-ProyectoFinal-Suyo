@@ -1,38 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/*
+:root {
+  --clr-main:#c56cee;
+  --clr-main-ligth: #efdaf9;
+}
+*/
 .App {
   text-align: center;
 }
+.container-navbar {
+  background-color:rgb(44, 40, 40) ;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.navbar {
+  background-color: rgb(44, 40, 40) !important;
+  color: whitesmoke;
+  height: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .navbar-brand {
+  color: #ecf0f1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar .navbar-nav .nav-link {
+  color:  #ef86d380;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.number{
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.navbar {
+    padding: 0.9rem;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.enlaces{
+  text-decoration: none;
+  /*border-radius: 5px;*/
+  margin: 1.4rem;
+  color: #ef86d380;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.enlacesDes{
+  margin: .28rem;
+}
+.enlacesDes a{
+  color: rgb(0, 0, 0);
+}
+.enlacesDes a:hover{
+  /*color:rgb(39, 134, 222);*/
+  color: #ef86d380;
+}
+.enlacesDes:hover{
+  background: rgba(84, 82, 82, 0.403);
+  transition: 0.5s;
+  border-radius: 5px;
+}
+/*navbar*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  
+  
+}
+
+.containerItemList {
+ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  ;
+
+  flex-wrap: wrap;
+  /*max-width: 1140px;*/
+  /*padding-inline: 1.5rem;*/
+  
+ 
+}
+
+
+.producto {
   display: flex;
   flex-direction: column;
+  background-color:  #ef86d380;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 1.5rem;
+  justify-content: center;
+  gap: 5;
+  display: inline-block
+}
+
+/*
+.producto > div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+} */
+
+.itemListContainer {
+  background-color: rgb(244, 241, 238);
+  /*display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;*/
+}
+
+
+
+/*para cada tarjeta*/
+.producto-detalle {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #ef86d380;
+  border-radius: 1px; 
+}
+.precio {
+  font-size: large;
+  font-weight: bold;
+}
+.item-count-container {
+  display: flex;
+  align-items: center;
+}
+.item-count {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.item-count button, .agregar-al-carrito, .enviar, .Number {
+  background-color: var(--clr-main);
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  line-height: 1;
+  border: 2px solid var(--clr-main);
+  transition: .2s;
+}
+.item-count button:hover, .agregar-al-carrito:hover, .enviar:hover , .Number{
+  background-color: white;
+  color: black;
+}
+.Number {
+  color :black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.agregar-al-carrito, .enviar {
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  padding: 1rem;
 }
