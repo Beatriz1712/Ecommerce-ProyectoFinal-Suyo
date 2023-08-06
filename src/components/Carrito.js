@@ -15,7 +15,7 @@ const Carrito = () => {
        {
             carrito.map((prod) => (
                 <div key={prod.id}>
-                    <br/>
+                    
                     <h2>{prod.titulo}</h2>
                     <p>Precio unit: ${prod.precio}</p>
                     <p>Precio total:${prod.precio * prod.cantidad}</p>
@@ -29,7 +29,7 @@ const Carrito = () => {
             <>
                 <h4>PRECIO TOTAL: ${precioTotal()}</h4>
                 <button onClick={handleVaciar}>Vaciar carrito</button>
-                <Link to="/checkout">Finalizar compra</Link>
+                <Link className="finalizar" to="/checkout">Finalizar compra</Link>
             </>:
             <h2>El carrito está vacio ☹</h2>
        }

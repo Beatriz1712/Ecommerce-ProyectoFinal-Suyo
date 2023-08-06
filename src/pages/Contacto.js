@@ -10,16 +10,16 @@ function Contacto() {
   };
 
   return (
-    <div className="container">
+    <div className="container-contacto">
       <h1 className='contacto-title'> Contacto</h1>
       <form className='formulario' onSubmit={handleSubmit(enviar)}>
 
-        <input type="text" placeholder='Ingresar nombre' {...register("nombre")} />
+        <input className = "input-form" type="text" placeholder='Ingresar nombre' {...register("nombre")} />
 
-        <input type="email" placeholder='Ingresar email' {...register("email")} />
+        <input className = "input-form" type="email" placeholder='Ingresar email' {...register("email")} />
 
-        <input type="phone" placeholder='Ingresar tu telefono' {...register("telefono")} />
-
+        <input className = "input-form" type="phone" placeholder='Ingresar tu telefono' {...register("telefono")} />
+        
         <button className="btn-enviar" type="submit"> Enviar</button>
       </form>
 

@@ -143,7 +143,7 @@
   display:flex;
   flex-direction: row;
   justify-content: center;
-  width: 70%;
+  width: auto;
   height: 20%;
   padding: 10px;
   margin: 20px;
@@ -206,7 +206,7 @@
 
 button {
   border-radius: .5rem;
- font-size: 1rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,6 +256,105 @@ button {
 }
 
 .Ver-mas:hover {
+  background-color: white;
+  color: black;
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem;
+  background-color:  #ef86d380;
+  width: 50%;
+  margin: auto;
+  gap: 5px;
+}
+
+.contacto-title {
+  margin-top: 2rem;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  
+}
+
+.input-form {
+  margin: 5px;
+  padding: 3px;
+  padding: auto;
+  text-decoration: none;
+  border-radius: 1px; 
+  text-align: center;
+  text-shadow: #0b080a80;
+  color: black;
+  border: hidden;
+ 
+}
+
+.input-form:hover {
+  
+  color: black;
+}
+
+.finalizar {
+  
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8px;
+  border: 2px solid var(--clr-main);
+  transition: .2s;
+  position: relative;
+  padding: 20px 50px;
+  text-decoration: none;
+  color:#0b080a80;
+  background-color: #ef86d380;
+  letter-spacing: 3px;
+  border: 3px solid #ef86d380 ;
+  padding-inline: 35px;
+  cursor: pointer;
+}
+
+.contacto-title , .checkout-title{
+  font-size: 40px;
+  font-weight: 600;
+  font-style:normal;
+}
+.pedido-checkout {
+  color:#8c076980 ;
+  font-weight: 800;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.btn-enviar {
+  background-color: var(--clr-main);
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  border: 2px solid var(--clr-main);
+  transition: .2s;
+  margin-top: 10px;
+}
+
+.btn-enviar:hover {
   background-color: white;
   color: black;
 }

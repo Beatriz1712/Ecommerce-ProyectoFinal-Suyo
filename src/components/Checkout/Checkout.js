@@ -30,26 +30,26 @@ const Checkout = () => {
         return (
             <div className='"container'>
                 <h1 className='checkout-title'>¡¡ Muchas gracias por tu compra !!</h1>
-                <p> Tu número de pedido es: {pedidoId}</p>
+                <p className='pedido-checkout'> Tu número de pedido es: {pedidoId}</p>
             </div>
         )
 
       }
 
   return (
-    <div className="container">
+    <div className="container-contacto">
       <h1 className='contacto-title'> Compra finalizada</h1>
       <form className='formulario' onSubmit={handleSubmit( comprar)}>
 
-        <input type="text" placeholder='Ingresar nombre' {...register("nombre")} />
+        <input className = "input-form" type="text" placeholder='Ingresar nombre' {...register("nombre")} />
 
-        <input type="email" placeholder='Ingresar email' {...register("email")} />
+        <input className = "input-form" type="email" placeholder='Ingresar email' {...register("email")} />
 
-        <input type="phone" placeholder='Ingresar tu telefono' {...register("telefono")} />
+        <input className = "input-form" type="phone" placeholder='Ingresar tu telefono' {...register("telefono")} />
 
         <button className="btn-enviar" type="submit">Comprar</button>
       </form>
-
+      
 
     </div>
   )
