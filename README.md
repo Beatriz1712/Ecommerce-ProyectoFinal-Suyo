@@ -14,17 +14,10 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 * React 
 * JvaScript
 
-[el video](http://video.gif)
-
-
-
+[Mi video] (https://github.com/Beatriz1712/Ecommerce-ProyectoFinal-Suyo/assets/126209925/13ecd051-cab4-4870-8276-19762a3d996e)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-
-
 
 
 
