@@ -17,16 +17,16 @@ function App() {
           
       <CartProvider>
         <BrowserRouter>
-          <NavBar />
-          <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/contacto' element={<Contacto />} />
-            <Route exact path='/productos' element={<ItemListContainer />} />
-            <Route exact path='/category/:category' element={<ItemListContainer />} />
-            <Route exact path='/Item/:id' element={<ItemDetailContainer />} />
-            <Route exact path='/carrito' element={<Carrito />} />
-            <Route exact path='/checkout' element={<Checkout />} />
-          </Routes>
+            <NavBar />
+            <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route exact path='/contacto' element={<Contacto />} />
+                <Route exact path='/productos' element={<ItemListContainer />} />
+                <Route exact path='/category/:category' element={<ItemListContainer />} />
+                <Route exact path='/Item/:id' element={<ItemDetailContainer />} />
+                <Route exact path='/carrito' element={<Carrito />} />
+                <Route exact path='/checkout' element={<Checkout />} />
+            </Routes>
         </BrowserRouter>
       </CartProvider>  
     </div>

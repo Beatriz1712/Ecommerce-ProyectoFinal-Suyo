@@ -1,4 +1,3 @@
-// import Button from 'react-bootstrap/Button';
 import{Link} from 'react-router-dom';
 
 
@@ -21,6 +20,4 @@ import{Link} from 'react-router-dom';
     }
     export default Item; 
       
-        /*
-        //<div className='p-4 shadow-lg rounded hover:scale-110 transition duration-300' >
-        */
+       
