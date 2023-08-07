@@ -12,15 +12,15 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 * Boostrap
 * Firebase
 * React 
-* JvaScript
-
-[el video](http://video.gif)
+* JavaScript
 
 
 
+[Mi video](http://ReactApp-BettySotre.mp4)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app).
 
 
 
