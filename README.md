@@ -14,6 +14,7 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 * React 
 * JavaScript
 
+# Video de la app
 [Mi video](https://github.com/Beatriz1712/Ecommerce-ProyectoFinal-Suyo/assets/126209925/37b5af8d-0782-4104-a7fc-2eed72367099)
 
 
