@@ -12,11 +12,9 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 * Boostrap
 * Firebase
 * React 
-* JvaScript
+* JavaScript
 
-[el video](http://video.gif)
-
-
+[Mi video](https://github.com/Beatriz1712/Ecommerce-ProyectoFinal-Suyo/assets/126209925/37b5af8d-0782-4104-a7fc-2eed72367099)
 
 
 
