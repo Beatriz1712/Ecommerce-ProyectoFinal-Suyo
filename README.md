@@ -16,7 +16,7 @@ Nos indica tambien si el cliente desea vaciar el carrito y seleccionar nuevament
 
 
 
-[Mi video](http://ReactApp-BettySotre.mp4)
+[Mi video] (http://ReactApp-BettySotre.mp4)
 
 
 
